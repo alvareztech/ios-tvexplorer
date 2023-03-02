@@ -1,5 +1,9 @@
 # TV Provider for iOS
 
+By Daniel Alvarez
+
+_Swift_ application using _SwiftUI_ for the UI layer, the _MVVM_ pattern, and includes some tests.
+
 ## Requirements
 
 - [x] The show list should display the title, status, and the poster
