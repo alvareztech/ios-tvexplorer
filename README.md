@@ -1,4 +1,4 @@
-# TV Provider for iOS
+# TV Explorer for iOS
 
 By Daniel Alvarez
 
