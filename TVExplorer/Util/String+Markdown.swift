@@ -9,12 +9,14 @@ import Foundation
 
 extension String {
     
-    /// Basic HTML to Markdown converter
+    /// Super basic HTML to Markdown converter
     var markdown: String {
         self.replacingOccurrences(of: "<p>", with: "\n")
             .replacingOccurrences(of: "</p>", with: "\n")
             .replacingOccurrences(of: "<b>", with: "**")
             .replacingOccurrences(of: "</b>", with: "**")
+            .replacingOccurrences(of: "<i>", with: "*")
+            .replacingOccurrences(of: "</i>", with: "*")
     }
     
     var toAttributed: AttributedString {
